@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+/*This animates the link transitions*/
+html{ 
+	scroll-behavior:smooth;
+}
+
+/*This adds space to the top to accomodate the fixed navigation bar*/
+body{
+  padding-top:50px;
+  
+}
+
+/*I'm using a Google Font for all of my header objects*/
+h1, h2, h3, h4, h5 h6, 
+.h1, .h2, .h3, .h4, .h5 .h6{
+  font-family: 'Merriweather', serif;
+  font-weight:900;
+}
+h2, .h2{
+  margin-bottom:30px;
+}
+.full_width_header{
+  background-size:cover;
+  background-position:center;
+  padding-bottom:150px;
+  background-image: url(img/PrBlue.png);
+  height: 100%;
+  width: 100%;
+}
+.jumbotron{
+  background-color:transparent;
+  padding-top:100px;
+}
+.jumbotron h1{
+  color: white;
+  font-size:72px;
+  font-family: 'Roboto', sans-serif;
+}
+.jumbotron p{
+  color:#f1f1f1;
+  font-size:28px;
+  text-shadow: 1px 1px 1px #000000;
+  font-family: 'Open Sans', sans-serif, 
+}
+.btn-transition{
+  transition:.25s;
+}
+.more_padding{
+  padding:50px 0;
+}
+.background_grey{
+  background:#F1F1F1;
+}
+.background_black{
+  background:#000;
+}
+.background_black h2, .background_black p{
+  color:#FFF;
+}
+iframe{
+  width:100%;
+  max-width:720px;
+  margin:0 auto;
+  display:block;
+}
+.black{
+  color:black;
+}
+}
+.btn-primary:hover{
+  border-color: #000;
+  font-family: 'Montserrat'; 
+}
+.btn-primary{
+  border-color: black;
+  font-family: 'Montserrat'; 
+}
+.navbar-brand{
+}
+.lunch{
+  color: #0c8e9a;
+}
+.blue{
+  color: #0c8e9a;
+}
+.high{
+  font-size: 16px;
+}
+
+
+
